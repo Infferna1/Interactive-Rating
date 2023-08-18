@@ -69,13 +69,15 @@ h1 {
   padding-top: 120px;
 }
 
-section {
-  display: none;
+.hidden {
+    display: none;
 }
 
+/* section {
+  display: none;
+} */
+
 .visible {
-  display: inline;
-  visibility: visible;
   background-color: var(--dark-blue);
   border-radius: 28px;
   max-width: 400px;
@@ -85,7 +87,6 @@ section {
 }
 
 .center {
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -179,6 +180,7 @@ button:hover {
 }
 
 .orange {
+  display: inline-block;
   color: var(--orange);
   background: rgba(124, 135, 152, 0.15); /* same as --grey-medium*/
   padding: 5px 15px;

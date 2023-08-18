@@ -13,12 +13,11 @@
     />
 
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="/main.js"></script>
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
     <div class="container">
-      <section>
+      <section class="visible">
         <div class="rating-icon">
           <div class="background-circle"></div>
           <img src="/images/icon-star.svg" alt="" class="icon-star" />
@@ -52,9 +51,9 @@
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
-      <section class="visible center">
+      <section class="visible center hidden">
         <img src="/images/illustration-thank-you.svg" alt="" />
-        
+
         <p class="orange">You selected out of 5</p>
 
         <h1>Thank you!</h1>
@@ -72,6 +71,8 @@
           >Frontend Mentor</a
         >. Coded by <a href="#">Infferna</a>.
       </footer>
+
+      <script type="text/javascript" src="/main.js"></script>
     </div>
     <!-- Rating state start -->
   </body>
